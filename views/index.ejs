@@ -1,0 +1,41 @@
+<!-- index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My SBA 318</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <h1>Welcome to My Restful API App </h1>
+
+    <p>This is a social media project have users, posts, and comments.</p>
+
+    <h2>New User Form</h2>
+
+    <form action="/submit" method="POST">
+
+<!---<form action="api/users" method="POST"></form> --office hr help however then form submit button was not working so did not change--->
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+
+
+</body>
+
+</html>
